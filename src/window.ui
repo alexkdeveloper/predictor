@@ -3,8 +3,8 @@
 <interface>
   <!-- interface-name window.ui -->
   <requires lib="Adw" version="1.0"/>
-  <requires lib="gtk" version="4.0"/>
   <requires lib="gio" version="2.0"/>
+  <requires lib="gtk" version="4.0"/>
   <requires lib="libadwaita" version="1.4"/>
   <template class="PredictorWindow" parent="AdwApplicationWindow">
     <property name="content">
@@ -19,16 +19,17 @@
             <property name="spacing">6</property>
             <child>
               <object class="GtkBox">
-                <property name="orientation">vertical</property>
                 <child>
                   <object class="GtkLabel" id="label">
                     <property name="css-classes">title-1</property>
+                    <property name="hexpand">True</property>
                     <property name="vexpand">True</property>
                     <property name="wrap">True</property>
                   </object>
                 </child>
                 <child>
                   <object class="GtkSpinner" id="spinner">
+                    <property name="hexpand">True</property>
                     <property name="spinning">True</property>
                     <property name="valign">center</property>
                     <property name="vexpand">True</property>
@@ -74,8 +75,8 @@ suggested-action</property>
         <attribute name="label" translatable="yes">_About Predictor</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="yes">_Quit</attribute>
         <attribute name="action">app.quit</attribute>
+        <attribute name="label" translatable="yes">_Quit</attribute>
       </item>
     </section>
   </menu>
