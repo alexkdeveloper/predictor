@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-12-03 12:49+0800\n"
+"PO-Revision-Date: 2023-12-03 12:50+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: window.py\n"
+"X-Poedit-SearchPath-1: window.ui\n"
+"X-Poedit-SearchPath-2: main.py\n"
+
+#: main.py:29
+msgid "translator-credits"
+msgstr "Alex Kryuchkov"
+
+#: window.py:41
+msgid "It is certain."
+msgstr "Это несомненно."
+
+#: window.py:42
+msgid "It is decidedly so."
+msgstr "Это однозначно так."
+
+#: window.py:43
+msgid "Without a doubt."
+msgstr "Без сомнения."
+
+#: window.py:44
+msgid "Yes—definitely."
+msgstr "Да, определённо."
+
+#: window.py:45
+msgid "You may rely on it."
+msgstr "Вы можете положиться на это."
+
+#: window.py:46
+msgid "As I see it, yes."
+msgstr "Насколько я понимаю, да."
+
+#: window.py:47
+msgid "Most likely."
+msgstr "Вероятнее всего."
+
+#: window.py:48
+msgid "Outlook good."
+msgstr "Перспективы хорошие."
+
+#: window.py:49
+msgid "Yes."
+msgstr "Да."
+
+#: window.py:50
+msgid "Signs point to yes."
+msgstr "Знаки говорят, что да."
+
+#: window.py:51
+msgid "Yep!"
+msgstr "Да!"
+
+#: window.py:52
+msgid "Absolutely!"
+msgstr "Абсолютно!"
+
+#: window.py:53
+msgid "You bet!"
+msgstr "Ещё бы!"
+
+#: window.py:54
+msgid "Confirmed."
+msgstr "Подтверждаю."
+
+#: window.py:55
+msgid "Don’t count on it."
+msgstr "Не рассчитывай на это."
+
+#: window.py:56
+msgid "My reply is no."
+msgstr "Мой ответ - нет."
+
+#: window.py:57
+msgid "My sources say no."
+msgstr "Мои источники говорят, что нет."
+
+#: window.py:58
+msgid "Outlook not so good."
+msgstr "Перспективы не очень хорошие."
+
+#: window.py:59
+msgid "Very doubtful."
+msgstr "Очень сомнительно."
+
+#: window.py:60
+msgid "Naw."
+msgstr "Нет."
+
+#: window.py:61
+msgid "I’ve got a bad feeling about this…"
+msgstr "У меня плохое предчувствие по этому поводу…"
+
+#: window.py:62
+msgid "Reply hazy, try again."
+msgstr "Ответ туманный, попробуйте ещё раз."
+
+#: window.py:63
+msgid "Ask again later."
+msgstr "Спросите ещё раз позже."
+
+#: window.py:64
+msgid "Better not tell you now."
+msgstr "Лучше не говорить тебе сейчас."
+
+#: window.py:65
+msgid "Cannot predict now."
+msgstr "Сейчас не могу предсказать."
+
+#: window.py:66
+msgid "Concentrate and ask again."
+msgstr "Сконцентрируйтесь и спросите еще раз."
+
+#: window.py:67
+msgid "Impossible to see, the future is."
+msgstr "Будущее невозможно увидеть."
+
+#: window.py:68
+msgid "404 Answer Not Found"
+msgstr "404 Ответ не найден"
+
+#: window.ui:44
+msgid "Ask Again"
+msgstr "Спросить Ещё Раз"
+
+#: window.ui:56
+msgid "Menu"
+msgstr "Меню"
+
+#: window.ui:71
+msgid "_Keyboard Shortcuts"
+msgstr "_Комбинации Клавиш"
+
+#: window.ui:75
+msgid "_About Predictor"
+msgstr "_О Программе"
+
+#: window.ui:78
+msgid "_Quit"
+msgstr "_Выход"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Настройки"

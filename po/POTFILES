@@ -1,0 +1,6 @@
+data/io.github.alexkdeveloper.predictor.desktop.in
+data/io.github.alexkdeveloper.predictor.metainfo.xml.in
+data/io.github.alexkdeveloper.predictor.gschema.xml
+src/main.py
+src/window.py
+src/window.ui
