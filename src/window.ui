@@ -29,6 +29,7 @@
                 </child>
                 <child>
                   <object class="GtkSpinner" id="spinner">
+                    <property name="height-request">35</property>
                     <property name="hexpand">True</property>
                     <property name="spinning">True</property>
                     <property name="valign">center</property>
