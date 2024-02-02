@@ -58,7 +58,7 @@ class PredictorApplication(Adw.Application):
                                 developers=['Alex Kryuchkov'],
                                 translator_credits=translator_credits,
                                 website='https://github.com/alexkdeveloper/predictor',
-                                copyright='© 2023 Alex Kryuchkov',
+                                copyright='© 2024 Alex Kryuchkov',
                                 license_type=Gtk.License.GPL_3_0)
         about.present()
 

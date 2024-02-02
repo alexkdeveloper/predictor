@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2024 Alex Kryuchkov <kryuchkovalex19830609@gmail.com> -->
 <component type="desktop">
-	<id>io.github.alexkdeveloper.predictor.desktop</id>
-	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>GPL-3.0-or-later</project_license>
-	<description>
-	  <p>No description</p>
-	</description>
+  <id>io.github.alexkdeveloper.predictor</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Predictor</name>
+  <summary>A program that predicts the future</summary>
+  <provides>
+    <binary>io.github.alexkdeveloper.predictor</binary>
+  </provides>
+  <translation type="gettext">io.github.alexkdeveloper.predictor</translation>
+  <launchable type="desktop-id">io.github.alexkdeveloper.predictor.desktop</launchable>
+  <developer_name>Alex Kryuchkov</developer_name>
+  <url type="homepage">https://github.com/alexkdeveloper/predictor</url>
+  <url type="bugtracker">https://github.com/alexkdeveloper/predictor/issues</url>
+  <url type="vcs-browser">https://github.com/alexkdeveloper/predictor</url>
+  <url type="translate">https://github.com/alexkdeveloper/predictor/tree/main/po</url>
+  <url type="help">https://github.com/alexkdeveloper/predictor/issues</url>
+  <screenshots>
+    <screenshot type="default">
+    <image>https://raw.githubusercontent.com/alexkdeveloper/predictor/main/data/screenshot1.png</image>
+    </screenshot>
+    <screenshot type="default">
+    <image>https://raw.githubusercontent.com/alexkdeveloper/predictor/main/data/screenshot2.png</image>
+    </screenshot>
+    <screenshot type="default">
+    <image>https://raw.githubusercontent.com/alexkdeveloper/predictor/main/data/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+  <description>
+    <p>A program for predicting the outcome of events. It works like a magic ball. The user asks a question and presses a button, and after a short wait, the program outputs some phrase.</p>
+  </description>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.0" date="2024-02-06">
+    <description translatable="no">
+      <ul>
+        <li>Initial release</li>
+      </ul>
+    </description>
+    </release>
+  </releases>
 </component>
