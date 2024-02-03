@@ -81,7 +81,7 @@ class PredictorWindow(Adw.ApplicationWindow):
 
     def on_button_clicked(self, widget):
 
-        self.revealer.set_reveal_child(False)
+        self.revealer.set_reveal_child(not self.revealer.get_child_revealed)
 
         GLib.timeout_add(6000, self.after_timeout)
 
@@ -90,7 +90,7 @@ class PredictorWindow(Adw.ApplicationWindow):
 
     def after_timeout(self):
 
-        self.revealer.set_reveal_child(True)
+        self.revealer.set_reveal_child(self.revealer.get_child_revealed)
 
         rand = random.randint(0, 27)
 
