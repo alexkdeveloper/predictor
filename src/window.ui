@@ -18,23 +18,15 @@
             <property name="orientation">vertical</property>
             <property name="spacing">6</property>
             <child>
-              <object class="GtkBox">
+              <object class="GtkRevealer" id="revealer">
+                <property name="transition-duration">5000</property>
+                <property name="transition-type">crossfade</property>
                 <child>
                   <object class="GtkLabel" id="label">
                     <property name="css-classes">title-1</property>
                     <property name="hexpand">True</property>
                     <property name="vexpand">True</property>
                     <property name="wrap">True</property>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkSpinner" id="spinner">
-                    <property name="height-request">35</property>
-                    <property name="hexpand">True</property>
-                    <property name="spinning">True</property>
-                    <property name="valign">center</property>
-                    <property name="vexpand">True</property>
-                    <property name="visible">False</property>
                   </object>
                 </child>
               </object>

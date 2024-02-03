@@ -31,7 +31,7 @@ class PredictorWindow(Adw.ApplicationWindow):
 
     label = Gtk.Template.Child()
     button = Gtk.Template.Child()
-    spinner = Gtk.Template.Child()
+    revealer = Gtk.Template.Child()
 
     arr_str = []
 
@@ -76,14 +76,21 @@ class PredictorWindow(Adw.ApplicationWindow):
         self.arr_str.append(_("Impossible to see, the future is."))
         self.arr_str.append(_("404 Answer Not Found"))
 
-        self.on_button_clicked(self)
+        GLib.timeout_add(1000, self.after_timeout)
+
 
     def on_button_clicked(self, widget):
 
-        self.label.hide()
-        self.spinner.show()
+        self.revealer.set_reveal_child(False)
 
-        GLib.timeout_add(2000, self.set_widgets_visible_after_timeout)
+        GLib.timeout_add(6000, self.after_timeout)
+
+        self.button.set_sensitive(False)
+
+
+    def after_timeout(self):
+
+        self.revealer.set_reveal_child(True)
 
         rand = random.randint(0, 27)
 
@@ -100,6 +107,7 @@ class PredictorWindow(Adw.ApplicationWindow):
         else:
            self.label.add_css_class('warning')
 
-    def set_widgets_visible_after_timeout(self):
-        self.label.show()
-        self.spinner.hide()
+        if self.revealer.get_child_revealed:
+           self.button.set_sensitive(True)
+           self.button.grab_focus()
+
