@@ -50,8 +50,7 @@ class PredictorApplication(Adw.Application):
 
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
-        about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='Predictor',
+        about = Adw.AboutDialog(application_name='Predictor',
                                 application_icon='io.github.alexkdeveloper.predictor',
                                 developer_name='Alex Kryuchkov',
                                 version='1.0.0',
@@ -60,7 +59,7 @@ class PredictorApplication(Adw.Application):
                                 website='https://github.com/alexkdeveloper/predictor',
                                 copyright='© 2024 Alex Kryuchkov',
                                 license_type=Gtk.License.GPL_3_0)
-        about.present()
+        about.present(self.props.active_window)
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.
