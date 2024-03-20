@@ -29,7 +29,7 @@
     </screenshot>
   </screenshots>
   <description>
-    <p>A program for predicting the outcome of events. It works like a magic ball. The user asks a question and presses a button, and after a short wait, the program outputs some phrase.</p>
+    <p>A program for predicting the outcome of events. It works like a magic ball. The user asks a question and presses a button, and the program outputs some randomly selected phrase.</p>
   </description>
   <content_rating type="oars-1.1"/>
   <releases>
