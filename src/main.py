@@ -54,7 +54,7 @@ class PredictorApplication(Adw.Application):
                                 application_name='Predictor',
                                 application_icon='io.github.alexkdeveloper.predictor',
                                 developer_name='Alex Kryuchkov',
-                                version='1.0.0',
+                                version='1.0.1',
                                 developers=['Alex Kryuchkov'],
                                 translator_credits=translator_credits,
                                 website='https://github.com/alexkdeveloper/predictor',

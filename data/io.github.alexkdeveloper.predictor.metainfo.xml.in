@@ -33,6 +33,13 @@
   </description>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.0.1" date="2024-03-27">
+    <description translatable="no">
+      <ul>
+        <li>Added Brazilian Portuguese translation</li>
+      </ul>
+    </description>
+    </release>
     <release version="1.0.0" date="2024-03-20">
     <description translatable="no">
       <ul>
