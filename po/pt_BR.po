@@ -1,0 +1,158 @@
+# Brazilian Portuguese translation for Predictor.
+# This file is distributed under the same license as the Predictor package.
+# Tiago Lucas Flach <tiagolucas9830@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-26 15:19-0300\n"
+"PO-Revision-Date: 2024-03-26 15:19-0300\n"
+"Last-Translator: Tiago Lucas Flach <tiagolucas9830@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: window.py\n"
+"X-Poedit-SearchPath-1: window.ui\n"
+"X-Poedit-SearchPath-2: main.py\n"
+
+#: main.py:29
+msgid "translator-credits"
+msgstr "Tiago Lucas Flach <tiagolucas9830@gmail.com>"
+
+#: window.py:50
+msgid "It is certain."
+msgstr "É certo."
+
+#: window.py:51
+msgid "It is decidedly so."
+msgstr "É decididamente assim."
+
+#: window.py:52
+msgid "Without a doubt."
+msgstr "Sem dúvida."
+
+#: window.py:53
+msgid "Yes—definitely."
+msgstr "Sim, definitivamente."
+
+#: window.py:54
+msgid "You may rely on it."
+msgstr "Você pode contar com ele."
+
+#: window.py:55
+msgid "As I see it, yes."
+msgstr "A meu ver, sim."
+
+#: window.py:56
+msgid "Most likely."
+msgstr "Provavelmente."
+
+#: window.py:57
+msgid "Outlook good."
+msgstr "Perspectiva boa."
+
+#: window.py:58
+msgid "Yes."
+msgstr "Sim."
+
+#: window.py:59
+msgid "Signs point to yes."
+msgstr "Sinais apontam que sim."
+
+#: window.py:60
+msgid "Yep!"
+msgstr "Sim!"
+
+#: window.py:61
+msgid "Absolutely!"
+msgstr "Com certeza!"
+
+#: window.py:62
+msgid "You bet!"
+msgstr "Pode apostar!"
+
+#: window.py:63
+msgid "Confirmed."
+msgstr "Confirmado."
+
+#: window.py:64
+msgid "Don’t count on it."
+msgstr "Não conte com isso."
+
+#: window.py:65
+msgid "My reply is no."
+msgstr "Minha resposta é não."
+
+#: window.py:66
+msgid "My sources say no."
+msgstr "Minhas fontes dizem não."
+
+#: window.py:67
+msgid "Outlook not so good."
+msgstr "A perspectiva não é tão boa."
+
+#: window.py:68
+msgid "Very doubtful."
+msgstr "Muito duvidoso."
+
+#: window.py:69
+msgid "Naw."
+msgstr "Não."
+
+#: window.py:70
+msgid "I’ve got a bad feeling about this…"
+msgstr "Estou com um mau pressentimento sobre isso…"
+
+#: window.py:71
+msgid "Reply hazy, try again."
+msgstr "Resposta nebulosa, tente novamente."
+
+#: window.py:72
+msgid "Ask again later."
+msgstr "Pergunte novamente mais tarde."
+
+#: window.py:73
+msgid "Better not tell you now."
+msgstr "Melhor não te dizer agora."
+
+#: window.py:74
+msgid "Cannot predict now."
+msgstr "Não posso prever agora."
+
+#: window.py:75
+msgid "Concentrate and ask again."
+msgstr "Concentre-se e pergunte novamente."
+
+#: window.py:76
+msgid "Impossible to see, the future is."
+msgstr "Impossível ver, o futuro é."
+
+#: window.py:77
+msgid "404 Answer Not Found"
+msgstr "404 Resposta não encontrada"
+
+#: window.ui:39
+msgid "Ask Again"
+msgstr "Pergunte novamente"
+
+#: window.ui:51
+msgid "Menu"
+msgstr "Menu"
+
+#: window.ui:64
+msgid "_Keyboard Shortcuts"
+msgstr "_Atalhos do Teclado"
+
+#: window.ui:68
+msgid "_About Predictor"
+msgstr "_Sobre o Preditor"
+
+#: window.ui:72
+msgid "_Quit"
+msgstr "_Sair"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Preferências"
